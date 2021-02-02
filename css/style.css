@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Start Navbar */
+
+.navbar{
+    background-color: rgba(111, 66, 193, 0.1);
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar .navbar-brand img{
+    height: 40px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* End Navbar */
+
+
+/* Start Header */
+header .banner{
+    background-color: rgba(111, 66, 193, 0.1);
+    border-bottom-right-radius: 50%;
+    height: 50vh;
+    overflow: hidden;
+}
+header .banner .banner-text{
+    margin-top: 30px;
+}
+header .banner .banner-text .banner-title{
+    color: #6f42c1;
+    font-family: 'Tajawal', sans-serif;
+}
+header .banner .banner-text .banner-heading{
+    font-weight: bold;
+    color: #6f42c1;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 2px;
+}
+header .banner .banner-text .banner-para{
+    margin-top: 15px;
+    font-family: 'Tajawal', sans-serif;
+}
+header .banner .banner-text .banner-btn{
+    background-color: #6f42c1;
+    border-radius: 100px;
+    
+}
+header .banner .banner-text .banner-btn .btn-text{
+    color: white;
+    margin: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+}
+header .banner .img-class img{
+    /* height: 300px; */
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+/* End Header */
+
+
+
+/* Start Main Section */
+
+.statistics .statistics-heading{
+    color: #6f42c1;
+}
+.statistics .statistics-para{
+    font-family: 'Tajawal', sans-serif;
+}
+.statistics-icons .fa-virus{
+    margin-bottom: 10px;
+    font-size: 30px;
+    /* margin-left: 130px; */
+    color: #6f42c1;
+}
+.statistics-icons .virus-nos{
+    font-size: 30px;
+    font-weight: bold;
+}
+.statistics-icons .virus-case{
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    font-weight: 700;
+}
+
+.covid-19 .what-corona{
+    color: #6f42c1;
+    font-weight: 900;
+}
+.covid-19 .corona-text{
+    color: #808080;
+    font-weight: 400;
+}
+.covid-19 .fa-check-circle{
+    color: #6f42c1;
+}
+.covid-19 span{
+    color: #808080;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.covid-19 .btn{
+    background-color: #6f42c1;
+    border-radius: 100px;
+    width: 30%;
+}
+.covid-19 .btn-text{
+    color: white;
+    margin: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+}
+
+
+.preventation .fa-handshake-slash{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.preventation .icons-set h5{
+    font-size: 15px;
+    color: #6f42c1;
+    font-weight: 1000;
+}
+.preventation .icons-set span{
+    color: #808080;
+    font-size: 13px;
+}
+.preventation .fa-head-side-mask{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.preventation .fa-pump-medical{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.preventation .fa-virus{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.preventation-2 .card{
+    border-radius:20px;
+}
+.preventation-2 .card .card-img{
+    background-color: #6f42c133;
+}
+.preventation-2 .card .card-img .fa-house-user{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.preventation-2 .card .card-body h6{
+    color: #6f42c1;
+    font-size: 16px;
+    font-weight: 600;
+}
+.preventation-2 .card .card-body p{
+    color: #808080;
+    font-size: 15px;
+}
+.preventation-2 .card .card-img .fa-people-arrows{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.preventation-2 .cards-main h2{
+    margin-top: 80px;
+    color: #6f42c1;
+    font-weight: bold;
+    font-size: 30px;
+}
+.preventation-2 .cards-main .zero{
+    color: #808080;
+    margin-top: 20px;
+}
+.preventation-2 .cards-main .one{
+    margin-top: -40px;
+    color: #808080;
+}
+.preventation-2 .cards-main .card-circle .fa-check-circle{
+    color: #6f42c1;
+    
+}
+.preventation-2 .cards-main .card-circle span{
+    color: #808080;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.preventation-2 .cards-main .btn-card-main{
+    margin-top: 50px;
+    background-color: #6f42c1;
+    color: white;
+    border-radius: 100px;
+}
+.preventation-2 .card .card-img .fa-hands-wash{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.preventation-2 .card .card-img .fa-head-side-mask{
+    color: #6f42c1;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.protect p{
+    color: #808080;
+}
+.protect h2{
+    color: #6f42c1;
+    font-weight: bold;
+}
+.protect .protect-para{
+    color: #808080;
+    margin-top: 25px;
+}
+.protect-2 .fa-check-circle{
+    margin-top: 20px;
+    font-size: 13px;
+    color: lightgreen;
+    margin-right: 8px;
+}
+.protect-2 .fa-times{
+    margin-top: 20px;
+    font-size: 13px;
+    color: red;
+    margin-right: 8px;
+}
+.protect-2 span{
+    color: #808080;
+}
+
+.symptoms h2{
+    color: #6f42c1;
+    font-weight: bold;
+}
+.symptoms .para{
+    color: #808080;
+    margin-top: 30px;
+}
+.symptom{
+    padding: 30px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+.symptom img{
+    height: 100px;
+}
+.symptom .text {
+    margin-left: 10px;
+}
+.symptom .text h4{
+    color: #6f42c1;
+    font-size: 20px;
+}
+.symptom .text p{
+    color: #808080;
+    font-size: 15px;
+}
+.symptoms-help strong{
+    color: #6f42c1;
+    font-weight: bold;
+}
+.symptoms-help {
+    color:#808080;
+}
+.btn-help{
+    background-color:#6f42c1 ;
+    color: #fff;
+    border-radius: 100px;
+    width: 60%;
+    
+}
+.footer .footer-icons{
+    color: #6f42c1 ;
+}
+.footer .footer-heading h4{
+    color:#000;
+    font-size: 20px;
+}
+.footer .footer-heading p{
+    color:#808080;
+    font-size: 15px;
+}
+.footer .footer-heading a{
+    color: #6f42c1;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* End Main Section */
+
+
+@media (max-width:360px){
+    header .banner{
+        background-color: rgba(111, 66, 193, 0.1);
+        border-bottom-right-radius: 40%;
+        height: 80vh;
+        overflow: hidden;
+    }
+    header .banner .banner-text .banner-heading{
+        font-weight: bold;
+        color: #6f42c1;
+        font-family: 'Crete Round', serif;
+        letter-spacing: 1px;
+    }
+    .covid-19 .what-corona{
+        color: #6f42c1;
+        margin-top: 15px;
+        font-weight: 700;
+    }
+    .covid-19 .btn{
+        background-color: #6f42c1;
+        border-radius: 100px;
+        /* align-content: center; */
+        width: 40%;
+    }
+    .preventation-2 .card{
+        border-radius:20px;
+        margin-bottom: 10px;
+    }
+    .preventation-2 .cards-main h2{
+        margin-top: 80px;
+        color: #6f42c1;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .protect h2{
+        color: #6f42c1;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .symptoms h2{
+        color: #6f42c1;
+        font-weight: bold;
+        font-size: 24px;
+        /* text-align: left !important; */
+    }
+    .symptom{
+        padding: 30px;
+        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+        background: #fff;
+        margin-bottom: 10px;
+    }
+    .sym-help .btn-help{
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width:375px){
+    header .banner{
+        background-color: rgba(111, 66, 193, 0.1);
+        border-bottom-right-radius: 35%;
+        height: 67vh;
+        overflow: hidden;
+    }
+    header .banner .banner-text .banner-heading{
+        font-weight: bold;
+        color: #6f42c1;
+        font-family: 'Crete Round', serif;
+        letter-spacing: 1px;
+    }
+    header .banner .img-class img{
+        /* height: 300px; */
+        /* vertical-align: middle; */
+        /* margin-top: 28px; */
+    }
+    .covid-19 .what-corona{
+        color: #6f42c1;
+        margin-top: 15px;
+        font-weight: 700;
+    }
+    .covid-19 .btn{
+        background-color: #6f42c1;
+        border-radius: 100px;
+        /* align-content: center; */
+        width: 40%;
+    }
+    .preventation-2 .card{
+        border-radius:20px;
+        margin-bottom: 10px;
+    }
+    .preventation-2 .cards-main h2{
+        margin-top: 80px;
+        color: #6f42c1;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .protect h2{
+        color: #6f42c1;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .symptoms h2{
+        color: #6f42c1;
+        font-weight: bold;
+        font-size: 24px;
+        /* text-align: left !important; */
+    }
+    .symptom{
+        padding: 30px;
+        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+        background: #fff;
+        margin-bottom: 10px;
+    }
+    .sym-help .btn-help{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:768px){
+    header .banner{
+        background-color: rgba(111, 66, 193, 0.1);
+        border-bottom-right-radius: 35%;
+        height: 32vh;
+        overflow: hidden;
+    }
+}
+
+@media  (min-width: 992px){
+    header .banner{
+        background-color: rgba(111, 66, 193, 0.1);
+        border-bottom-right-radius: 50%;
+        height: 50vh;
+        overflow: hidden;
+    }
+}
+@media (min-width:1024px){
+    header .banner{
+        background-color: rgba(111, 66, 193, 0.1);
+        border-bottom-right-radius: 50%;
+        height: 30vh;
+        overflow: hidden;
+    }
+}
+@media (min-width:1200px){
+    header .banner{
+        background-color: rgba(111, 66, 193, 0.1);
+        border-bottom-right-radius: 50%;
+        height: 50vh;
+        overflow: hidden;
+    }
+}
